@@ -10,6 +10,6 @@ class InfoBox extends StatefulWidget {
 class _InfoBoxState extends State<InfoBox> {
   @override
   Widget build(BuildContext context) {
-    return Padding(padding: const EdgeInsets.all(40), child: widget.iBWidget);
+    return Padding(padding: const EdgeInsets.all(25), child: widget.iBWidget);
   }
 }

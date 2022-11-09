@@ -6,6 +6,7 @@ class DefaultTheme {
 
   ThemeData getAppTheme() {
     return ThemeData(
+        scaffoldBackgroundColor: const Color.fromARGB(255, 26, 32, 49),
         appBarTheme: AppBarTheme(
             backgroundColor: const Color.fromARGB(127, 40, 47, 68),
             foregroundColor: const Color.fromARGB(255, 230, 175, 46),
@@ -40,8 +41,10 @@ class DefaultTheme {
   }
 
   BoxDecoration getInfoBoxStyle() {
-    return const BoxDecoration(
-      color: Color.fromARGB(255, 40, 47, 68),
-    );
+    return BoxDecoration(
+        color: const Color.fromARGB(255, 40, 47, 68),
+        borderRadius: BorderRadius.circular(8),
+        border: Border.all(
+            color: const Color.fromARGB(63, 245, 208, 97), width: 5));
   }
 }
