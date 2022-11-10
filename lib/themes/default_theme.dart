@@ -47,4 +47,8 @@ class DefaultTheme {
         border: Border.all(
             color: const Color.fromARGB(63, 245, 208, 97), width: 5));
   }
+
+  Color getSecondaryColor() {
+    return const Color.fromARGB(255, 230, 175, 46);
+  }
 }
